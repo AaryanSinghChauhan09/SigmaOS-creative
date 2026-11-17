@@ -3,12 +3,12 @@ name = "SigmaOS-creative"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "creative component"
+description = "Part of SigmaOS architecture: SigmaOS-creative"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
